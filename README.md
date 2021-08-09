@@ -15,7 +15,10 @@
 기상청의 체감기온, 기온등의 변수도 사용해보았지만, 성능이 좋지않아 제외하였다.
 
 또한 월, 요일 별로 특별하게 식수인원이 많은 월과 요일이 있는듯한 양상을 보여 월과 요일에 순위를 부여하여서 사용하였다.
-
+-------
+### Kernel PCA
+- 좀 더 유의미한 `Feature Selection`을 위해 kenel pca를 진행했으나 유의미한 결과를 얻지 못햇다.
+- 아무래도 예측해야하는 과제의 특성상 변수를 제거하니 정확도가 더 떨어진 것으로 예상 
 
 \+
 한동안 Public 점수로 1등을 유지하다가, 5등까지 떨어졌다.
@@ -25,3 +28,4 @@
 ![image](https://user-images.githubusercontent.com/73769046/126861455-a9f49fc6-1c03-40ab-ab5b-ab55d918a59f.png)
 
 ![image](https://user-images.githubusercontent.com/73769046/126861439-1069c3ee-a3d7-4122-a577-ba24b1c06759.png)
+-------
