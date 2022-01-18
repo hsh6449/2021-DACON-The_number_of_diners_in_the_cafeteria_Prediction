@@ -1,7 +1,7 @@
 ## DACON-The_number_of_diners_in_the_cafeteria_Prediction
 [데이콘 구내식당 식수 인원 예측 AI 경진대회](https://dacon.io/competitions/official/235743/leaderboard)
 
-- XG Boost , LightGBM, Randomforest, Kfold 등 다양한 모델들을 사용해보았지만 CatBoost의 성능이 가장 좋았다!
+- XG Boost , LightGBM, Randomforest, Kfold 등 다양한 모델들을 사용해보았지만 CatBoost의 성능이 가장 좋았다
 
 --------------
 
@@ -23,9 +23,10 @@
 - 아무래도 예측해야하는 과제의 특성상 변수를 제거하니 정확도가 더 떨어진 것으로 예상 
 ---------
 \+
-한동안 Public 점수로 1등을 유지하다가, 5등까지 떨어졌다.
-7/23 Private 점수가 공개되자 최종발표된 순위는 51등.. 심하게 Train 데이터와 Public Test 데이터에 과적합되었던듯하다.
-첫 대회치고는 나쁘지않은 결과지만, 아쉬움이 남았다. 
+- 한동안 Public 점수로 1등을 유지하다가, 5등까지 떨어졌다.
+- 7/23 Private 점수가 공개되자 최종발표된 순위는 51/220. 과적합되었던 것으로 예상
+- 대회를 시작하면서부터 주어진 `메뉴`데이터를 처리하고 싶었는데 NLP의 오류로 인해 실패했다. 가상환경 새로 팠는데..
+- 첫 대회치고는 나쁘지않은 결과지만, 아쉬움이 남았다. 
 
 ![image](https://user-images.githubusercontent.com/73769046/126861455-a9f49fc6-1c03-40ab-ab5b-ab55d918a59f.png)
 
