@@ -4,6 +4,10 @@
 - JBIG에서 멤버를 모아 도전했던 첫 데이콘 대회
 - XG Boost , LightGBM, Randomforest, Kfold 등 다양한 모델들을 사용해보았지만 CatBoost의 성능이 가장 좋았다
 
+## ROLE
+- `황산하` : 파라미터 튜닝 및 전처리 
+- `고경수` : 전처리 및 모델링
+- `김동완` : 모델링 및 변수 선택
 --------------
 
 ### Feature Engneering
